@@ -55,6 +55,33 @@ p{
 
 .container{
   border-top: 4px solid gray;
+  .header{
+    h2{
+      font-family: 'Georgia', georgia, serif;
+      font-style: italic;
+    }
+    h3{
+      font-family: 'Georgia', georgia, serif;
+      font-style: italic;
+      color: red;
+      font-size: 1.2em;
+      line-height: 1.5px;
+    }
+    ul{
+      list-style-type: none;
+      li{
+        display: inline-block;
+        padding: 15px;
+        :hover{
+          background-color: gray;
+          color: white;
+        }
+        #loginLink{
+          color: red;
+        }
+      }
+    }
+  }
   footer{
     background-color: #8f8f8f;
     a{
