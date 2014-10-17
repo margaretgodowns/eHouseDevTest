@@ -38,3 +38,45 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+//write custom styles here
+
+//general styles
+h3{
+  font-family: 'Helvetica';
+}
+
+p{
+  font-family: 'Helvetica';
+}
+
+
+//nested styles
+
+.container{
+  border-top: 4px solid gray;
+  footer{
+    background-color: #8f8f8f;
+    a{
+      color: red;
+    }
+    p{
+      font-size: .8em;
+      color: white;
+    }
+    ul{
+      list-style-type: none;
+      font-size: .8em;
+      a{
+        color: red;
+      }
+      li{
+        color: white;
+      }
+    }
+    .retailBox{
+      background-color: #dfdfdf;
+      padding: 15px;
+    }
+  }
+}
